@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Finance",
+    "slug": "finance-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.grozstudios.financeapp"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grozstudios.financeapp"
+    },
+    "scheme": "financeapp",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5a2630e1-fed4-4afb-bbc1-0c1e0def575b"
+      }
+    },
+    "owner": "grozstudios"
+  }
+}
